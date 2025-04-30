@@ -4,7 +4,7 @@ import { ItemListComponent } from './components/item-list/item-list.component';
 
 @Component({
 	selector: 'app-root',
-	imports: [ItemsComponent, ItemListComponent],
+	imports: [ItemsComponent],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss',
 })
