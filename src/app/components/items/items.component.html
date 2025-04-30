@@ -1,0 +1,8 @@
+<h2>Items</h2>
+
+<input [(ngModel)]="newItemName" placeholder="New item name" />
+<button (click)="addItem()">Add</button>
+
+<ul>
+	<li *ngFor="let item of items">{{ item.name }} ({{ item.created_at | date : 'short' }})</li>
+</ul>
