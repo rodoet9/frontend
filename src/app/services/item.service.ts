@@ -12,7 +12,7 @@ export interface Item {
 	providedIn: 'root',
 })
 export class ItemService {
-	private apiUrl = 'http://localhost:3000/api/items';
+	private apiUrl = 'http://https://backend-lejk.onrender.com/items';
 
 	constructor(private http: HttpClient) {}
 
